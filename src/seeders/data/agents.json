@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "6623665a7b37720e936960d6",
+    "name": "EMILY",
+    "lastname": "COLLAZOS AMORETI",
+    "address": "",
+    "documentNumber": "12345678",
+    "phone": "987654321",
+    "role": "asesor",
+    "status": true,
+    "assigned": false,
+    "endWorkingTime": "23:59",
+    "startWorkingTime": "00:00"
+  },
+  {
+    "_id": "662366897b37720e936960d7",
+    "name": "YOISY",
+    "lastname": "TICLIAHUANCA HUAMAN",
+    "address": "",
+    "documentNumber": "87654321",
+    "phone": "987654321",
+    "role": "asesor",
+    "status": true,
+    "assigned": true,
+    "endWorkingTime": "23:59",
+    "startWorkingTime": "00:00"
+  },
+  {
+    "_id": "668719b8eee69c1a6c4fdafe",
+    "name": "DELICIA",
+    "lastname": "ROMAN ALVARADO",
+    "address": "",
+    "documentNumber": "46831244",
+    "email": "ventas.delicia1@gmail.com",
+    "phone": "921273759",
+    "role": "asesor",
+    "status": true,
+    "assigned": true,
+    "endWorkingTime": "23:59",
+    "startWorkingTime": "00:00"
+  },
+  {
+    "_id": "663c29f6b0bee742b20c8742",
+    "name": "MARITZA",
+    "lastname": "VERA GUERRERO",
+    "address": "",
+    "documentNumber": "87654321",
+    "phone": "987654321",
+    "role": "asesor",
+    "status": true,
+    "assigned": true,
+    "endWorkingTime": "23:59",
+    "startWorkingTime": "00:00"
+  },
+  {
+    "_id": "662366967b37720e936960d8",
+    "name": "MARIA",
+    "lastname": "RUBIO GARCÍA",
+    "address": "",
+    "documentNumber": "87654321",
+    "phone": "987654321",
+    "role": "asesor",
+    "status": true,
+    "assigned": true,
+    "endWorkingTime": "23:59",
+    "startWorkingTime": "00:00"
+  }
+]

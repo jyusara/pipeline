@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "commonjs",
+      "rootDir": "src",
+      "allowJs": true,
+      "outDir": "build",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "baseUrl": "./",
+      "typeRoots": ["./node_modules/@types", "./src/types"],
+      "strictNullChecks": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strictPropertyInitialization": false,
+      "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"]
+}

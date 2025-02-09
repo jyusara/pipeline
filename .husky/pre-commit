@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+print_green() {
+  echo -e "\033[0;32m$1\033[0m"
+}
+
+print_red() {
+  echo -e "\033[0;31m$1\033[0m"
+}
+
+print_yellow() {
+  echo -e "\033[0;33m$1\033[0m\n"
+}
+
+print_green "Running lint checks..."
+yarn lint
+
+print_green "Changes detected, adding to commit..."
+git add .
+
+print_green "Running build test..."
+yarn build --noEmit
+
+print_green "Simulating start command..."
+yarn start & 
+START_PID=$!
+
+sleep 3
+kill $START_PID
+
+print_yellow "Pre-commit hook completed!"
