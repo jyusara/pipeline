@@ -21,7 +21,7 @@ services:
   shopimax-apiv2:
     build:
       context: .
-    container_name: shopimax-apiv2
+    #container_name: shopimax-apiv2
     restart: on-failure
     ports:
       - '3002:3002'
