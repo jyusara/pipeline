@@ -39,7 +39,6 @@ pipeline {
             // Detiene y elimina los contenedores definidos en el archivo docker-compose
             sh 'docker-compose down'
             // Elimina contenedores detenidos
-            sh 'docker container prune -f'
             // Elimina imágenes que no están en uso (dangling images)
             sh 'docker image prune -af'
             // Opcional: eliminar redes y volúmenes huérfanos
