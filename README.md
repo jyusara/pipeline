@@ -87,3 +87,9 @@ Después de clonar o hacer fork del repositorio, puedes eliminar el historial de
       git add .
       git commit -m "Initial commit"
 ```
+
+
+
+
+
+
