@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/RodrigoChumpitaz/project-pipeline.git'
+                git branch: 'main', url: 'https://github.com/jyusara/pipeline.git'
             }
         }
 

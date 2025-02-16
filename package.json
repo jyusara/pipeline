@@ -7,7 +7,7 @@
     "ts-build": "cd scripts && bash build.sh",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules src/index.ts",
     "dev:up": "cd scripts && bash dev-up.sh",
-    "logs": "docker logs -f --tail 100 shopimax-apiv2",
+    "logs": "docker logs -f --tail 100 project-pipeline-shopimax-apiv2-1",
     "restart": "docker restart shopimax-apiv2",
     "start": "node build/index.js",
     "build": "tsc",
