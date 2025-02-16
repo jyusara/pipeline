@@ -22,11 +22,12 @@ git add .
 print_green "Running build test..."
 yarn build --noEmit
 
-print_green "Simulating start command..."
-yarn start & 
-START_PID=$!
-
-sleep 3
-kill $START_PID
+# Se comenta o elimina la simulación del start, ya que no es necesaria para el pre-commit
+# print_green "Simulating start command..."
+# yarn start & 
+# START_PID=$!
+#
+# sleep 3
+# kill $START_PID
 
 print_yellow "Pre-commit hook completed!"
